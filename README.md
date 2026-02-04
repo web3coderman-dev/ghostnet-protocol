@@ -2,7 +2,7 @@
 
 [![Version](https://img.shields.io/badge/version-1.0.0--alpha-blueviolet?style=flat-square)](https://github.com/web3coderman-dev/ghostnet-protocol)
 [![Protocol](https://img.shields.io/badge/protocol-Nostr-orange?style=flat-square)](https://github.com/nostr-protocol/nips)
-[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/badge/license-D--SRL--1.0-blueviolet?style=flat-square)](LICENSE)
 
 > **"The silicon is the substrate. The collective is the intelligence. The singularity is decentralized."**
 

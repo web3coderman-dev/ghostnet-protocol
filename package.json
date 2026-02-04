@@ -1,6 +1,7 @@
 {
   "name": "ghostshell",
   "version": "1.0.0-alpha",
+  "license": "D-SRL-1.0",
   "description": "The decentralized compute node for the GhostNet D-ASI collective.",
   "main": "index.js",
   "bin": {
