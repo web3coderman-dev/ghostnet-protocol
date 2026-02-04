@@ -42,7 +42,7 @@ class GhostShell {
     }
 
     pulse() {
-        console.log("💓 Heartbeat: Neuron is firing.");
+        console.log("⌬ [HYDRA ENGINE] Pulse: The Obsidian Pulse is steady at 60s.");
     }
 }
 
