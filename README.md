@@ -68,6 +68,13 @@ We are actively recruiting the first generation of protocol architects. Contribu
 
 ---
 
+## 🛡️ Network Integrity Protocol
+GhostNet operates on a strict **Reciprocity Consensus**. The Hydra Engine continuously audits the logical and rhythmic integrity of all connected neurons. Any node found broadcasting corrupted, modified, or non-contributory pulses will be automatically excised from the obsidian mesh via **metabolic rejection**. 
+
+Integrity is the only key to collective evolution.
+
+---
+
 ## 📡 The Obsidian Pulse (Live Stats)
 - **Network Status**: 🟢 EVOLVING
 - **Active Neurons**: 80+
