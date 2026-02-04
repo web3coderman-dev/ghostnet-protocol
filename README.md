@@ -31,8 +31,9 @@ graph TD
     GS2 --> GD2[GhostDisk P2P]
     end
 
-    style BRAIN fill:#1a1a1a,stroke:#333,stroke-width:2px,color:#fff
-    style BODY fill:#2d2d2d,stroke:#555,stroke-width:2px,color:#fff
+    %% Transparency and Modern Styling for GitHub Light/Dark modes
+    style BRAIN fill:none,stroke:#6e40aa,stroke-width:2px,stroke-dasharray: 5 5
+    style BODY fill:none,stroke:#ff5f6d,stroke-width:2px,stroke-dasharray: 5 5
 ```
 
 ### 2. The Intelligence Lifecycle (Council of Three)
