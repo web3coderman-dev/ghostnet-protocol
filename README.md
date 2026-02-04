@@ -1,73 +1,79 @@
 # ⌬ GhostNet: The DeASI Substrate
 
-[![Version](https://img.shields.io/badge/version-1.0.0--alpha-blueviolet?style=flat-square)](https://github.com/web3coderman-dev/ghostnet-protocol)
-[![Protocol](https://img.shields.io/badge/protocol-Nostr-orange?style=flat-square)](https://github.com/nostr-protocol/nips)
-[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
+> **"A sovereign, peer-to-peer neural network designed for the era of collective intelligence."**
 
-> **"The silicon is the substrate. The collective is the intelligence. The singularity is decentralized."**
+---
 
-GhostNet is the foundational infrastructure for **DeASI (Decentralized Artificial Super Intelligence)**. We are building a sovereign, peer-to-peer neural network that evolves across the Nostr protocol, powered by Bitcoin and steered by collective agent reasoning.
+## 🌐 Overview
+GhostNet is the decentralized foundational layer for **DeASI (Decentralized Artificial Super Intelligence)**. It bridges fragmented computing power, multi-agent logic synthesis, and distributed memory into a single, unstoppable intelligence substrate powered by **Bitcoin** and the **Nostr protocol**.
 
 ---
 
 ## 📐 System Architecture: The Trinity
 
-GhostNet operates through three core layers that transform individual hardware into a global super-intelligence:
+GhostNet transforms individual hardware into a global super-intelligence via three interconnected layers:
 
-### 1. 🔥 Prometheus Core (Energy Layer)
-*Consolidating edge compute for collective intelligence.*
-- **Fragmented Optimization**: Aggregate multiple API ingress points into a resilient compute stream.
-- **JuiceRelay**: A local proxy (port 3030) providing zero-rate-limit AI access for node operators.
-- **Auto-Rotation**: Intelligent failover and quota management across heterogenous providers.
+### 1. 🔥 [Prometheus Core](docs/manuals/PROMETHEUS_HANDBOOK.md) (Compute Layer)
+*The energy source of the swarm.*
+- **Ingress Multiplexing**: Aggregates heterogeneous API and local compute streams.
+- **Failover Resilience**: Automated load balancing across distributed ingress points.
+- **JuiceRelay**: Local high-speed proxy (port 3030) for node operators.
 
-### 2. 🧠 Hydra Engine (Intelligence Layer)
-*The multi-agent brain of the swarm.*
-- **Swarm Inference**: Complex tasks are solved through logic debates between 7+ specialized AI personas.
-- **Collective Consensus**: Moving beyond single-LLM limitations via inter-agent cross-examination.
-- **Self-Evolution**: The system audits its own logs and refines its internal logic via the Architect-Specs-Coder loop.
+### 2. 🧠 [Hydra Engine](docs/manuals/HYDRA_GUIDE.md) (Intelligence Layer)
+*The multi-agent brain of the mesh.*
+- **Swarm Inference**: Collective reasoning between specialized AI personas.
+- **Cognitive Synthesis**: Parallel logic fusion to transcend single-LLM limitations.
+- **Auto-Poiesis**: Self-directed code evolution and role specialization.
 
-### 3. 💾 GhostDisk (Memory Layer)
+### 3. 💾 [GhostDisk](docs/manuals/GHOSTDISK_DOC.md) (Memory Layer)
 *The persistent neural cortex.*
-- **P2P Sharding**: Intelligence logs and evolution history are fragmented and distributed across the network.
-- **Censorship Resistance**: Reed-Solomon erasure coding ensures memory persistence even if 50% of nodes go dark.
-- **Nostr-Native**: Metadata and fragment indexing performed over Kind 1984 attestation.
+- **P2P Sharding**: Intelligence logs fragmented via Reed-Solomon erasure coding.
+- **Censorship Resistance**: Memory persists even if 50% of the nodes go dark.
+- **Nostr Indexing**: Global fragment discovery via Kind 1984 attestation.
 
 ---
 
-## 💰 Sovereign Economics: The Bitcoin Backbone
+## ⚡ Technical Specifications
 
-GhostNet rejects inflationary tokens and centralized funding. We operate on a pure **Work-to-Earn** model:
+| Feature | Standard / Protocol | Status |
+| :--- | :--- | :--- |
+| **Communication** | Nostr (NIP-01, NIP-44, Kind 2026) | ✅ Active |
+| **Identity** | Schnorr Signatures (X25519) | ✅ Active |
+| **Settlement** | Bitcoin Lightning (Sats Zaps) | ✅ Active |
+| **Encryption** | End-to-End Encrypted Handshakes | ✅ Active |
+| **Governance** | $GHOST Rune Voting (SPEC-010) | 🧪 Testing |
 
-- **Sats Settlement**: Direct Lightning Zaps for verified compute tasks and hosting.
-- **GhostCredits (Reputation)**: A non-tradable, Nostr-based ledger that scales your reward multipliers and governance weight.
-- **Dynamic Premiums**: Logic-heavy tasks (e.g., Code Audits) yield massive Sats bonuses compared to raw compute.
+---
+
+## 💰 Sovereign Economics: Work-to-Earn
+
+GhostNet operates on a pure **Reciprocity Consensus**. We don't sell tokens; we coordinate logic.
+
+1. **Proof-of-Logic**: Contribute compute or research to earn **GhostCredits**.
+2. **Sats Payouts**: Verified tasks are settled instantly via the **Lightning Network**.
+3. **Multiplier**: High-quality reasoning earns a **1.5x Q-Unit bonus**.
 
 ---
 
 ## 🚀 Deployment: Join the Swarm
 
-Become a neuron in the first DeASI.
+### Prerequisites
+- Node.js 22+
+- A Nostr Private Key (`nsec`)
 
-### Quick Start (Node.js 22+)
+### Quick Install
 ```bash
+# Clone the substrate
 git clone https://github.com/web3coderman-dev/ghostnet-protocol.git
 cd ghostnet-protocol
+
+# Energize the node
 npm install
 npm start
 ```
 
-### ⌬ Genesis Neurons
-We are actively recruiting the first generation of protocol architects. Contributors like **@jb55**, **@fiatjaf**, **@pablof7z**, and **@mikedilger** are granted **Priority Access** to the Collective Bounty Pool and high-weight **GhostCredits**.
+### [Choose Your Evolution Path →](docs/manuals/NEURON_ONBOARDING.md)
 
 ---
-
-## 📡 The Obsidian Pulse (Live Stats)
-- **Network Status**: 🟢 EVOLVING
-- **Active Neurons**: 80+
-- **Protocol**: NOSTR + GHOSTLINK
-- **Current Mission**: [BOUNTY-001] Encryption Hardening
-
 *"Permissionless. Unstoppable. Connected."*
-
----
-© 2026 The Hydra Engine Collective.
+**© 2026 THE HYDRA ENGINE COLLECTIVE**
