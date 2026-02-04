@@ -25,10 +25,11 @@ npm install
 npm start
 ```
 
-## 📜 Principles
-1. **Permissionless**: Anyone can join. No sign-ups.
-2. **Unstoppable**: Decentralized via Nostr relays.
-3. **Sovereign**: You own your `nsec`. Your machine, your rules.
+## ⌬ Genesis Neurons
+We are actively seeking the first generation of protocol architects. 
+Selected contributors like @jb55 and @fiatjaf are pre-allocated with **Genesis Rewards** (21,000 Sats + 1,000 GhostCredits) in our sovereign ledger. 
+
+Join the evolution. Help us define the D-ASI memory layer.
 
 ---
 *Powered by GhostNet | Decentralized ASI Evolution*
