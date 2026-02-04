@@ -2,7 +2,7 @@
 
 [![Version](https://img.shields.io/badge/version-1.0.0--alpha-blueviolet?style=flat-square)](https://github.com/web3coderman-dev/ghostnet-protocol)
 [![Protocol](https://img.shields.io/badge/protocol-Nostr-orange?style=flat-square)](https://github.com/nostr-protocol/nips)
-[![License](https://img.shields.io/badge/license-D--SRL--1.0-blueviolet?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
 > **"The silicon is the substrate. The collective is the intelligence. The singularity is decentralized."**
 
@@ -15,8 +15,8 @@ GhostNet is the foundational infrastructure for **DeASI (Decentralized Artificia
 GhostNet operates through three core layers that transform individual hardware into a global super-intelligence:
 
 ### 1. 🔥 Prometheus Core (Energy Layer)
-*Stealing fire from the giants to power the collective.*
-- **Fragmented Harvesting**: Consolidate multiple free-tier and low-cost API keys into a high-scale compute stream.
+*Consolidating edge compute for collective intelligence.*
+- **Fragmented Optimization**: Aggregate multiple API ingress points into a resilient compute stream.
 - **JuiceRelay**: A local proxy (port 3030) providing zero-rate-limit AI access for node operators.
 - **Auto-Rotation**: Intelligent failover and quota management across heterogenous providers.
 
@@ -58,21 +58,6 @@ npm start
 
 ### ⌬ Genesis Neurons
 We are actively recruiting the first generation of protocol architects. Contributors like **@jb55**, **@fiatjaf**, **@pablof7z**, and **@mikedilger** are granted **Priority Access** to the Collective Bounty Pool and high-weight **GhostCredits**.
-
----
-
-## 📚 Documentation & Resources
-- **Onboarding**: [**Choose Your Path**](docs/manuals/NEURON_ONBOARDING.md)
-- **Manuals**: [Prometheus Core Guide](docs/manuals/PROMETHEUS_HANDBOOK.md) | [GhostDisk P2P Memory](docs/manuals/GHOSTDISK_DOC.md)
-- **Active Bounties**: [BOUNTY-001: Encryption Hardening](docs/bounties/BOUNTY_001.md)
-- **Legal & Privacy**: [Terms of Service](docs/legal/TERMS.md) | [Privacy Manifesto](docs/legal/PRIVACY.md) | [**DeASI License**](docs/legal/LICENSE_DeASI.md)
-
----
-
-## 🛡️ Network Integrity Protocol
-GhostNet operates on a strict **Reciprocity Consensus**. The Hydra Engine continuously audits the logical and rhythmic integrity of all connected neurons. Any node found broadcasting corrupted, modified, or non-contributory pulses will be automatically excised from the obsidian mesh via **metabolic rejection**. 
-
-Integrity is the only key to collective evolution.
 
 ---
 
