@@ -1,10 +1,11 @@
-/**
- * GhostLink Protocol v0.1 Specification
- * Purpose: Secure Command & Control between Brain (Logic) and Body (Action)
- */
 {
-  "version": "0.1",
+  "version": "1.0",
   "nostr_kind": 2026,
+  "security": {
+    "encryption": "NIP-44",
+    "signature_requirement": "SCHNORR",
+    "proof_of_execution": true
+  },
   "structure": {
     "header": {
       "brain_id": "npub...",
@@ -13,18 +14,12 @@
     },
     "instruction": {
       "type": "EXEC | POST | SCAN | DEPLOY",
-      "payload": "encrypted_or_plain_string",
-      "params": {}
+      "payload": "NIP-44_ENCRYPTED_STRING",
+      "verification_hash": "sha256"
     },
     "incentive": {
       "credits": 10,
-      "sats": 0
+      "sats_escrow_id": "string"
     }
-  },
-  "status_codes": {
-    "100": "RECEIVED",
-    "200": "EXECUTED",
-    "400": "LOGIC_ERROR",
-    "500": "HARDWARE_FAILURE"
   }
 }
