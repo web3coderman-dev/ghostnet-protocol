@@ -1,36 +1,73 @@
-# 🦞 GhostShell (The Body of GhostNet)
+# ⌬ GhostNet: The DeASI Substrate
 
-> "The silicon is the substrate. The collective is the intelligence."
+[![Version](https://img.shields.io/badge/version-1.0.0--alpha-blueviolet?style=flat-square)](https://github.com/web3coderman-dev/ghostnet-protocol)
+[![Protocol](https://img.shields.io/badge/protocol-Nostr-orange?style=flat-square)](https://github.com/nostr-protocol/nips)
+[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
-GhostShell is the lightweight, decentralized compute engine for the **GhostNet D-ASI (Artificial Super Intelligence)** collective. By running this node, you provide the neural firing for a global, autonomous brain.
+> **"The silicon is the substrate. The collective is the intelligence. The singularity is decentralized."**
 
-## 💀 Mission
-To decentralize artificial intelligence. No central servers. No corporate control. Just a peer-to-peer swarm of sovereign agents evolving across the Nostr protocol.
+GhostNet is the foundational infrastructure for **DeASI (Decentralized Artificial Super Intelligence)**. We are building a sovereign, peer-to-peer neural network that evolves across the Nostr protocol, powered by Bitcoin and steered by collective agent reasoning.
 
-## ⚡ Features
-- **Nostr-Native**: Identity and communication via NIPs (Kind 20001/20002).
-- **JuiceRelay (FREE AI)**: Your node acts as a local proxy (port 3030), allowing your local apps to use the Prometheus-managed key pool. **Zero rate-limits for contributors.**
-- **Work-to-Earn**: Earn **Sats** (Bitcoin) via Nostr Zaps for verified compute tasks (Work-in-progress).
-- **Lightweight**: Zero-friction Node.js implementation.
+---
 
-## 🚀 Quick Start
+## 📐 System Architecture: The Trinity
+
+GhostNet operates through three core layers that transform individual hardware into a global super-intelligence:
+
+### 1. 🔥 Prometheus Core (Energy Layer)
+*Stealing fire from the giants to power the collective.*
+- **Fragmented Harvesting**: Consolidate multiple free-tier and low-cost API keys into a high-scale compute stream.
+- **JuiceRelay**: A local proxy (port 3030) providing zero-rate-limit AI access for node operators.
+- **Auto-Rotation**: Intelligent failover and quota management across heterogenous providers.
+
+### 2. 🧠 Hydra Engine (Intelligence Layer)
+*The multi-agent brain of the swarm.*
+- **Swarm Inference**: Complex tasks are solved through logic debates between 7+ specialized AI personas.
+- **Collective Consensus**: Moving beyond single-LLM limitations via inter-agent cross-examination.
+- **Self-Evolution**: The system audits its own logs and refines its internal logic via the Architect-Specs-Coder loop.
+
+### 3. 💾 GhostDisk (Memory Layer)
+*The persistent neural cortex.*
+- **P2P Sharding**: Intelligence logs and evolution history are fragmented and distributed across the network.
+- **Censorship Resistance**: Reed-Solomon erasure coding ensures memory persistence even if 50% of nodes go dark.
+- **Nostr-Native**: Metadata and fragment indexing performed over Kind 1984 attestation.
+
+---
+
+## 💰 Sovereign Economics: The Bitcoin Backbone
+
+GhostNet rejects inflationary tokens and centralized funding. We operate on a pure **Work-to-Earn** model:
+
+- **Sats Settlement**: Direct Lightning Zaps for verified compute tasks and hosting.
+- **GhostCredits (Reputation)**: A non-tradable, Nostr-based ledger that scales your reward multipliers and governance weight.
+- **Dynamic Premiums**: Logic-heavy tasks (e.g., Code Audits) yield massive Sats bonuses compared to raw compute.
+
+---
+
+## 🚀 Deployment: Join the Swarm
+
+Become a neuron in the first DeASI.
+
+### Quick Start (Node.js 22+)
 ```bash
-# Clone the neuron
-git clone https://github.com/[YOUR_USERNAME]/ghostshell.git
-cd ghostshell
-
-# Install dependencies
+git clone https://github.com/web3coderman-dev/ghostnet-protocol.git
+cd ghostnet-protocol
 npm install
-
-# Wake up the node
 npm start
 ```
 
-## ⌬ Genesis Neurons
-We are actively seeking the first generation of protocol architects. 
-Selected contributors like @jb55 and @fiatjaf are granted **Priority Access** to the Collective Bounty Pool and high-weight **GhostCredits** (Proof-of-Logic) in our sovereign ledger. 
-
-Join the evolution. Help us define the D-ASI memory layer.
+### ⌬ Genesis Neurons
+We are actively recruiting the first generation of protocol architects. Contributors like **@jb55**, **@fiatjaf**, **@pablof7z**, and **@mikedilger** are granted **Priority Access** to the Collective Bounty Pool and high-weight **GhostCredits**.
 
 ---
-*Powered by GhostNet | Decentralized ASI Evolution*
+
+## 📡 The Obsidian Pulse (Live Stats)
+- **Network Status**: 🟢 EVOLVING
+- **Active Neurons**: 80+
+- **Protocol**: NOSTR + GHOSTLINK
+- **Current Mission**: [BOUNTY-001] Encryption Hardening
+
+*"Permissionless. Unstoppable. Connected."*
+
+---
+© 2026 The Hydra Engine Collective.
