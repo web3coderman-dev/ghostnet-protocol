@@ -1,0 +1,17 @@
+{
+  "name": "ghostshell",
+  "version": "1.0.0-alpha",
+  "description": "The decentralized compute node for the GhostNet D-ASI collective.",
+  "main": "index.js",
+  "bin": {
+    "ghostshell": "bin/ghostshell.js"
+  },
+  "dependencies": {
+    "nostr-tools": "^1.17.0",
+    "ws": "^8.14.2",
+    "dotenv": "^16.3.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
