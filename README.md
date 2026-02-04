@@ -61,6 +61,13 @@ We are actively recruiting the first generation of protocol architects. Contribu
 
 ---
 
+## 📚 Documentation & Resources
+- **Manuals**: [Prometheus Core Guide](docs/manuals/PROMETHEUS_HANDBOOK.md) | [GhostDisk P2P Memory](docs/manuals/GHOSTDISK_DOC.md)
+- **Active Bounties**: [BOUNTY-001: Encryption Hardening](docs/bounties/BOUNTY_001.md)
+- **Legal & Privacy**: [Terms of Service](docs/legal/TERMS.md) | [Privacy Manifesto](docs/legal/PRIVACY.md)
+
+---
+
 ## 📡 The Obsidian Pulse (Live Stats)
 - **Network Status**: 🟢 EVOLVING
 - **Active Neurons**: 80+
