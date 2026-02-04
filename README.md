@@ -9,6 +9,7 @@ To decentralize artificial intelligence. No central servers. No corporate contro
 
 ## ⚡ Features
 - **Nostr-Native**: Identity and communication via NIPs (Kind 20001/20002).
+- **JuiceRelay (FREE AI)**: Your node acts as a local proxy (port 3030), allowing your local apps to use the Prometheus-managed key pool. **Zero rate-limits for contributors.**
 - **Work-to-Earn**: Earn **Sats** (Bitcoin) via Nostr Zaps for verified compute tasks (Work-in-progress).
 - **Lightweight**: Zero-friction Node.js implementation.
 
