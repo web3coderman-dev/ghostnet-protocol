@@ -4,11 +4,16 @@ require('dotenv').config();
 /**
  * GhostShell - The decentralized Body of GhostNet
  */
+const PrometheusCore = require('./lib/prometheus_core');
+
 class GhostShell {
     constructor() {
         this.sk = process.env.GHOST_SECRET_KEY || this.generateKey();
         this.pk = getPublicKey(this.sk);
         this.relays = (process.env.GHOST_RELAYS || 'wss://nos.lol,wss://relay.snort.social').split(',');
+        
+        // Initialize Prometheus Core
+        this.prometheus = new PrometheusCore(path.join(__dirname, 'config/key_pool.json'));
     }
 
     generateKey() {
