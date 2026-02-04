@@ -5,6 +5,7 @@ require('dotenv').config();
  * GhostShell - The decentralized Body of GhostNet
  */
 const PrometheusCore = require('./lib/prometheus_core');
+const GhostDisk = require('./lib/ghostdisk');
 
 class GhostShell {
     constructor() {
@@ -14,6 +15,9 @@ class GhostShell {
         
         // Initialize Prometheus Core
         this.prometheus = new PrometheusCore(path.join(__dirname, 'config/key_pool.json'));
+
+        // Initialize GhostDisk
+        this.disk = new GhostDisk(this.pk);
     }
 
     generateKey() {
