@@ -5,7 +5,9 @@ require('dotenv').config();
 const PrometheusCore = require('./lib/prometheus_core');
 const GhostDisk = require('./lib/ghostdisk');
 const JuiceRelay = require('./lib/juice_relay');
-const UsageReporter = require('./lib/usage_reporter'); // NEW
+const UsageReporter = require('./lib/usage_reporter');
+const LocalModelDriver = require('./lib/local_model_driver'); // NEW
+const PayloadObfuscator = require('./lib/payload_obfuscator'); // NEW
 
 class GhostShell {
     constructor() {
@@ -14,19 +16,40 @@ class GhostShell {
         this.relays = (process.env.GHOST_RELAYS || 'wss://nos.lol,wss://relay.snort.social').split(',');
         
         this.prometheus = new PrometheusCore(path.join(__dirname, 'config/key_pool.json'));
+        this.localModel = new LocalModelDriver(process.env.LOCAL_LLM_ENDPOINT || 'http://localhost:8080');
         this.disk = new GhostDisk(this.pk);
         this.relay = new JuiceRelay(3030);
-        this.reporter = new UsageReporter(this); // INIT REPORTER
+        this.reporter = new UsageReporter(this);
     }
 
     async start() {
         this.relay.start();
-        console.log(`\n⌬ [GHOSTSHELL] v1.2-Hardened IS AWAKE`);
+        console.log(`\n⌬ [GHOSTSHELL] v1.3-Stealth IS AWAKE`);
         
-        // Automated reporting every 15 minutes
+        // Automated reporting
         setInterval(() => this.reporter.report(), 900000);
         
-        // ... (Connection logic)
+        console.log(`⌬ [MODES] Local Inference: READY | Fragmented API: ACTIVE`);
+    }
+
+    /**
+     * Internal Logic: Unified Interface for all Intelligence
+     */
+    async processTask(prompt) {
+        let result;
+        // 1. Try local model first (Sovereign preference)
+        result = await this.localModel.generate(prompt);
+        
+        // 2. Fallback to Prometheus if local fails
+        if (!result) {
+            console.log("⌬ [FALLBACK] Local model offline. Engaging Prometheus harvesting...");
+            const key = this.prometheus.rotate();
+            // result = await callExternalApi(key, prompt);
+        }
+
+        // 3. Obfuscate source before any transmission
+        const finalPayload = PayloadObfuscator.scrub(result);
+        return finalPayload;
     }
 }
 
