@@ -60,12 +60,6 @@ node server.js
 
 The gateway will be available at `http://localhost:8888/v1`.
 
-## 🗺️ Roadmap
-
-- [x] **Phase 1: Core Proxy** (Universal Adapter, Smart Router)
-- [ ] **Phase 2: Financial Layer** (Local Ledger, Asset Verification)
-- [ ] **Phase 3: Decentralized Protocol** (Nostr Discovery, Lightning Settlement)
-
 ## 📄 License
 
 MIT
