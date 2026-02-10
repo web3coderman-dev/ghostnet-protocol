@@ -96,6 +96,10 @@ GhostNet transforms individual hardware into a global super-intelligence via fiv
 
 ---
 
+## 📦 Packages
+
+- **[GhostGateway](./packages/ghostgateway)**: The decentralized compute node software. An OpenAI-compatible proxy with smart routing and failover.
+- **GhostShell**: (Coming Soon) The CLI interface for interacting with the swarm.
 ## ⚡ Technical Specifications
 
 | Feature | Standard / Protocol | Status |
