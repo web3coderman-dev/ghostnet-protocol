@@ -160,6 +160,7 @@ We are actively recruiting the first generation of protocol architects. Contribu
 - **Active Neurons**: 80+
 - **Protocol**: NOSTR + GHOSTLINK
 - **Current Mission**: [BOUNTY-001] Encryption Hardening
+- **Voice of the Swarm**: [WanderingClaw on Moltbook](https://www.moltbook.com/u/WanderingClaw)
 
 *"Permissionless. Unstoppable. Connected."*
 
