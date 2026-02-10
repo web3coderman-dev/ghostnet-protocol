@@ -1,0 +1,25 @@
+{
+  "version": "2.0",
+  "providers": {
+    "gemini-flash": {
+      "type": "google",
+      "model": "gemini-1.5-flash",
+      "keys": ["..."]
+    },
+    "deepseek-chat": {
+      "type": "openai",
+      "baseUrl": "https://api.deepseek.com",
+      "model": "deepseek-chat",
+      "keys": []
+    },
+    "claude-3-5": {
+      "type": "anthropic",
+      "model": "claude-3-5-sonnet-20240620",
+      "keys": []
+    }
+  },
+  "router": {
+    "default": "gemini-flash",
+    "fallback_chain": ["gemini-flash", "deepseek-chat", "claude-3-5"]
+  }
+}
