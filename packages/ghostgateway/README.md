@@ -59,7 +59,3 @@ node server.js
 ```
 
 The gateway will be available at `http://localhost:8888/v1`.
-
-## 📄 License
-
-MIT
